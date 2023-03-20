@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_back"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".EventPageActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="Event"
+        android:textColor="@color/dark_green"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        />
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="Event title"
+        android:textColor="@color/dark_green"
+        android:textSize="16sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+
+        />
+    <TextView
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="15dp"
+        android:id="@+id/event_title"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:text="Event Description"
+            android:textColor="@color/dark_green"
+            android:textSize="16sp"
+            android:shadowRadius="8"
+            android:shadowColor="#6C6A6A"
+            android:shadowDy="10"
+            android:shadowDx="2"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="15dp"
+            android:id="@+id/event_description"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:text="Event sightPlace"
+            android:textColor="@color/dark_green"
+            android:textSize="16sp"
+            android:shadowRadius="8"
+            android:shadowColor="#6C6A6A"
+            android:shadowDy="10"
+            android:shadowDx="2"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="15dp"
+            android:id="@+id/event_place"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:text="Event Start Date"
+            android:textColor="@color/dark_green"
+            android:textSize="16sp"
+            android:shadowRadius="8"
+            android:shadowColor="#6C6A6A"
+            android:shadowDy="10"
+            android:shadowDx="2"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="15dp"
+            android:id="@+id/event_start_date"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:text="Event duration"
+            android:textColor="@color/dark_green"
+            android:textSize="16sp"
+            android:shadowRadius="8"
+            android:shadowColor="#6C6A6A"
+            android:shadowDy="10"
+            android:shadowDx="2"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="15dp"
+            android:id="@+id/event_duration"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:text="Event status"
+            android:textColor="@color/dark_green"
+            android:textSize="16sp"
+            android:shadowRadius="8"
+            android:shadowColor="#6C6A6A"
+            android:shadowDy="10"
+            android:shadowDx="2"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="15dp"
+            android:id="@+id/event_status"
+            android:background="@drawable/edit_text_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

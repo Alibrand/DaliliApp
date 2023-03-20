@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/info_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AdminPlaceEditActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lines="2"
+        android:layoutDirection="ltr"
+        android:text="New Place"
+        android:textColor="@color/dark_green"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/place_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/text_item_back" />
+
+        <ImageButton
+            android:id="@+id/take_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_camera_alt_24" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Place name"
+        android:id="@+id/place_name"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Place description"
+        android:inputType="textMultiLine"
+        android:paddingTop="15dp"
+        android:gravity="top"
+        android:id="@+id/place_description"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/manage_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/text_item_back"
+        android:lines="2"
+        android:paddingHorizontal="25dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/gallery_landskape_mountains_nature_photo_icon"
+        android:paddingVertical="0dp"
+        android:text="Edit  Gallery"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/update_location"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/text_item_back"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="0dp"
+        android:text="Update Location"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/text_item_back"
+        android:lines="2"
+        android:paddingVertical="0dp"
+        android:text="Save Changes"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contact_back"
+    android:padding="20dp"
+    tools:context=".ContactUsActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lines="2"
+        android:text="Contact Us"
+        android:textColor="@color/dark_green"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center_vertical"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_email_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="dalilforaseer@gmail.com"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="45dp"
+        android:gravity="center_vertical"
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_call_40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="+965623463456"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="45dp"
+        android:gravity="center_vertical"
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/facebook"
+            android:layout_margin="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:text="Dalili Official Page"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/feed_back"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_item_back"
+        android:text="Send Feedback"
+        android:lines="2"
+        android:paddingVertical="15dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/back"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_item_back"
+        android:text="Back"
+        android:lines="2"
+        android:paddingVertical="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#64D9ED"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/second_color"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

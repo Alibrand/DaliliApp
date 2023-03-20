@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_back"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AdminAddEventActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lines="2"
+        android:layoutDirection="ltr"
+        android:text="New Event"
+        android:textColor="@color/dark_green"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Event title"
+        android:id="@+id/event_title"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Event description"
+        android:inputType="textMultiLine"
+        android:paddingTop="15dp"
+        android:gravity="top"
+        android:id="@+id/event_description"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Event sightPlace"
+        android:id="@+id/event_place"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Event start date"
+        android:id="@+id/event_start_date"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Event duration e.g 4 days"
+        android:id="@+id/event_duration"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Event status e.g Delayed-Cancelled-Done"
+        android:id="@+id/event_status"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/text_item_back"
+        android:lines="2"
+        android:paddingVertical="0dp"
+        android:text="Save Event"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_back"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".FeedBackActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lines="2"
+        android:text="Feed Back"
+        android:textColor="@color/dark_green"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lines="2"
+        android:text="Send us a feed back"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <EditText
+        android:id="@+id/feed_back"
+        android:textSize="25sp"
+        android:gravity="top"
+        android:padding="15dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/var_color"
+        android:background="@drawable/text_item_back"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_item_back"
+        android:text="Send"
+        android:lines="2"
+        android:paddingVertical="15dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/back"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_item_back"
+        android:text="Back"
+        android:lines="2"
+        android:paddingVertical="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#64D9ED"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/second_color"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

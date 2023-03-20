@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/info_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".PlacePageActivity">
+
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="Place Name"
+        android:textColor="@color/dark_green"
+        android:textSize="25sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/place_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/text_item_back" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/text_item_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/button_like"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_favorite_border_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/likes_count"
+            android:layout_weight="1"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/location"
+            android:layout_weight="1"
+            android:background="@null"
+            app:tint="#096BD3"
+            android:scaleType="fitCenter"
+            android:paddingVertical="5dp"
+            android:src="@drawable/ic_baseline_location_on_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:text="description"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:id="@+id/place_description"
+        android:background="@drawable/text_item_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/text_item_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layoutDirection="ltr"
+                android:text="Gallery"
+                android:textColor="@color/dark_green"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/see_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layoutDirection="ltr"
+                android:text="See All"
+                android:textColor="@color/dark_green"
+                android:textSize="15sp"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/text_item_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layoutDirection="ltr"
+                android:text="Visitors Reviews"
+                android:textColor="@color/dark_green"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/see_all_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layoutDirection="ltr"
+                android:text="See All"
+                android:textColor="@color/dark_green"
+                android:textSize="15sp"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

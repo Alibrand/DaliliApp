@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/text_item_back"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:layout_marginVertical="10dp"
+    android:layout_height="wrap_content">
+   <TextView
+       android:id="@+id/author"
+       android:textColor="@color/dark_green"
+       android:textSize="25sp"
+       android:text="Author"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:foregroundGravity="left"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:numStars="5"
+        android:max="5"
+        />
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Review"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

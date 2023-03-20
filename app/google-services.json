@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "822934731854",
+    "project_id": "dalili-1e4cd",
+    "storage_bucket": "dalili-1e4cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822934731854:android:9554378165e9fc8b08571f",
+        "android_client_info": {
+          "package_name": "com.ksacp2022.dalili"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822934731854-ki49dapdpsbg9h8dtk2igddudhhhvf1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW-e8_tbJuMW5aX6Ij25qwdrclZ0jpZNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822934731854-ki49dapdpsbg9h8dtk2igddudhhhvf1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

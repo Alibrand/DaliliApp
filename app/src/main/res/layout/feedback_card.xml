@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/text_item_back"
+        android:id="@+id/text"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:text="Feedback"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+

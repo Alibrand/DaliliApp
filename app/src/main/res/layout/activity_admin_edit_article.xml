@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_back"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AdminEditArticleActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:text="Edit Article"
+        android:textColor="@color/dark_green"
+        android:textSize="30sp"
+        android:shadowRadius="8"
+        android:shadowColor="#6C6A6A"
+        android:shadowDy="10"
+        android:shadowDx="2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Article title"
+        android:id="@+id/article_title"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="15dp"
+        android:hint="Article Content"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:gravity="top"
+        android:id="@+id/article_content"
+        android:background="@drawable/edit_text_back"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/text_item_back"
+        android:lines="2"
+        android:paddingVertical="0dp"
+        android:text="Save Article"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

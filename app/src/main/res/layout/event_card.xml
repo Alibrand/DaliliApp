@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/main_item_back"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="5dp"
+    android:gravity="center_vertical"
+    android:id="@+id/event_card"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ic_baseline_event_24"
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/title"
+        android:textColor="@color/dark_green"
+        android:textSize="20sp"
+        android:text="Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/place"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:text="Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/status"
+        android:textColor="#D61D1D"
+        android:textSize="18sp"
+        android:text="Status"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
